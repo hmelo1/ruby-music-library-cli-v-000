@@ -29,4 +29,8 @@ class Artist
     #song
     self.new(artist_name).tap {|artist| artist.save}
   end
+
+  def
+
+  end
 end
