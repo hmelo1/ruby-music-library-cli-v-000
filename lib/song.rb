@@ -20,6 +20,6 @@ class Song
 
   def self.create(name)
     @name = name
-    save
+    self.save
   end
 end
