@@ -30,7 +30,7 @@ class Artist
     self.new(artist_name).tap {|artist| artist.save}
   end
 
-  def add_song
+  def add_song(song)
 
   end
 end
