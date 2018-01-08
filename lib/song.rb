@@ -26,4 +26,4 @@ end
 
 
 blah = Song.create("Blah")
-puts "#{blah}"
+puts "test #{blah}"
