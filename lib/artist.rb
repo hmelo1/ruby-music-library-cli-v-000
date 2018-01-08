@@ -13,7 +13,7 @@ class Artist
 
   def songs
 
-  emd
+  end
 
   def self.destroy_all
     @@all = []
