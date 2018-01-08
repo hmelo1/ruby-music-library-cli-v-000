@@ -20,7 +20,7 @@ class Song
 
   def self.create(name)
     song = Song.new(name)
-    @@all << song
+    song.save
     #self.new(name).tap {|song| song.save}
   end
 end
