@@ -31,7 +31,7 @@ class Artist
   end
 
   def add_song(song)
-    if song.artist.empty?
+    if song.artist == nil
       song.artist = self
     else
       print "TTTT"
