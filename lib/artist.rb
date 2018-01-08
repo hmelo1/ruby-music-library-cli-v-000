@@ -36,9 +36,4 @@ class Artist
     end
     self.songs << song
   end
-
-  def self.find_by_name(name)
-    self.all.detect{|artist| artist.name == name}
-  end
-
 end
