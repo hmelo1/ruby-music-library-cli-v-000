@@ -12,7 +12,7 @@ class Artist
   end
 
   def songs
-
+    @songs
   end
 
   def self.destroy_all
