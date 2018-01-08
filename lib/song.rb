@@ -14,7 +14,7 @@ class Song
     @@all = []
   end
 
-  def saved
+  def save
     @@all << self
   end
 end
