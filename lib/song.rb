@@ -23,7 +23,3 @@ class Song
     @@all << self
   end
 end
-
-
-blah = Song.create("Blah")
-puts "test #{blah.all}"
