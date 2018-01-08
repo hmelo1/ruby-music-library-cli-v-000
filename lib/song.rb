@@ -25,5 +25,5 @@ class Song
 end
 
 
-Song.create("Blah")
+blah = Song.create("Blah")
 puts "#{Song.all.name}"
