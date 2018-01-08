@@ -26,4 +26,4 @@ end
 
 
 Song.create("Blah")
-puts "#{Song.all}"
+puts "#{Song.all.name}"
