@@ -11,6 +11,10 @@ class Artist
     @@all
   end
 
+  def songs
+
+  emd
+
   def self.destroy_all
     @@all = []
   end
