@@ -22,6 +22,6 @@ class Artist
     #song = Song.new(name)
     #song.save
     #song
-    self.new(name).tap {|song| song.save}
+    self.new(name).tap {|artist| artist.save}
   end
 end
