@@ -26,4 +26,4 @@ end
 
 
 Song.create("Blah")
-"#{Song.all}"
+puts "#{Song.all}"
