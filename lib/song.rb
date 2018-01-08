@@ -3,7 +3,7 @@ class Song
   @@all = []
 
   def initialize(song_name)
-    @name = name
+    @name = song_name
   end
 
   def self.all
