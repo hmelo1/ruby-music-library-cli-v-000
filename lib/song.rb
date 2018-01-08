@@ -23,3 +23,7 @@ class Song
     @@all << self
   end
 end
+
+
+Song.create("Blah")
+Song.all
