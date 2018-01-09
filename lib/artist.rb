@@ -34,6 +34,6 @@ class Artist
     if song.artist == nil
       song.artist = self
     end
-      self.songs << song
+    self.songs ||= [song]
   end
 end
