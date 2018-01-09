@@ -34,6 +34,8 @@ class Artist
     if song.artist == nil
       song.artist = self
     end
-    self.songs << song
+    if self.songs.include?(song) do
+      print "TTTT"
+    end
   end
 end
