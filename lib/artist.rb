@@ -36,10 +36,6 @@ class Artist
     #end
     song.artist ||= self
 
-    if self.songs.include?(song)
-      return self.songs
-    else
-      self.songs << song
-    end
+    self.songs.include?(song) ? self.songs : self.songs << song
   end
 end
