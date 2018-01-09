@@ -37,7 +37,7 @@ class Artist
     song.artist ||= self
 
     if self.songs.include?(song)
-      puts "TTTT"
+      return self.songs
     else
       self.songs << song
     end
